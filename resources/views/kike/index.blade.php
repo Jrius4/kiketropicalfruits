@@ -30,37 +30,42 @@
 
 </div>
 <section class="section bg-light">
-<div class="container">
-<div class="row">
-<div class="col-md-6 col-lg-4 element-animate ">
-<div class="media block-6 d-block text-center">
-<div class="icon mb-3"><span class="ion-bookmark text-primary"></span></div>
-<div class="media-body">
-<h3 class="heading">Automotive Parts</h3>
-<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-</div>
-</div>
-</div>
-<div class="col-md-6 col-lg-4 element-animate ">
-<div class="media block-6 d-block text-center">
-<div class="icon mb-3"><span class="ion-heart text-primary"></span></div>
-<div class="media-body">
-<h3 class="heading">Maintenance Services</h3>
-<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-</div>
-</div>
-</div>
-<div class="col-md-6 col-lg-4 element-animate ">
-<div class="media block-6 d-block text-center">
-<div class="icon mb-3"><span class="ion-leaf text-primary"></span></div>
-<div class="media-body">
-<h3 class="heading">Green Energy</h3>
-<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-</div>
-</div>
-</div>
-</div>
-</div>
+    <div class="container">
+        <div class="row justify-content-around">
+        <div class="col-md-6 col-lg-4 element-animate ">
+        <div class="media block-6 d-block text-center">
+        <div class="icon mb-6"><span class="ion-eye text-primary"></span></div>
+        <div class="media-body">
+        <h2 class="heading">VISION</h2>
+        <p>To improve the
+            livelihoods of
+            organic fruit
+            farmers by
+            providing ready
+            market for their
+            fruits.</p>
+        </div>
+        </div>
+        </div>
+        <div class="col-md-6 col-lg-4 element-animate ">
+        <div class="media block-6 d-block text-center">
+        <div class="icon mb-6"><span class="ion-leaf text-primary"></span></div>
+        <div class="media-body">
+        <h3 class="heading">MISSION</h3>
+        <p>
+            We want to provide a
+        lasting solution to our
+        local fruits farmers and
+        transform our local
+        fruits into a high quality
+        global fruit product.
+        </p>
+        </div>
+        </div>
+        </div>
+
+        </div>
+        </div>
 </section>
 
 <section class="section">

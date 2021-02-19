@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="asset_files/fonts/ionicons/css/ionicons.min.css">
     <link rel="stylesheet" href="asset_files/fonts/fontawesome/css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="asset_files/css/style.css">
+
     <title>KIKE</title>
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <script src="{{ asset('js/app.js') }}" defer></script>
+
+    <link rel="stylesheet" href="asset_files/css/style.css">
 </head>
 <body>
 
@@ -65,22 +65,31 @@
         <div class="row mb-5">
         <div class="col-md-4 mb-5">
         <h3>About Us</h3>
-        <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. .</p>
-        <ul class="list-unstyled footer-link d-flex footer-social">
+        <p class="mb-5">We want to provide a
+            lasting solution to our
+            local fruits farmers and
+            transform our local
+            fruits into a high quality
+            global fruit product.</p>
+        {{-- <ul class="list-unstyled footer-link d-flex footer-social">
         <li><a href="#" class="p-2"><span class="fa fa-twitter"></span></a></li>
         <li><a href="#" class="p-2"><span class="fa fa-facebook"></span></a></li>
         <li><a href="#" class="p-2"><span class="fa fa-linkedin"></span></a></li>
         <li><a href="#" class="p-2"><span class="fa fa-instagram"></span></a></li>
-        </ul>
+        </ul> --}}
         </div>
         <div class="col-md-5 mb-5 pl-md-5">
         <h3>Contact Info</h3>
         <ul class="list-unstyled footer-link">
         <li class="d-block">
         <span class="d-block">Address:</span>
-        <span>34 Street Name, City Name Here, United States</span></li>
-        <li class="d-block"><span class="d-block">Telephone:</span><span>+1 242 4942 290</span></li>
-        <li class="d-block"><span class="d-block">Email:</span><span><a href="https://preview.colorlib.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="f29b9c949db28b9d8780969d9f939b9cdc919d9f">[email&#160;protected]</a></span></li>
+        <span>Plot 68/69 Nakaseta, Kakooge,
+            Nakasongola, District,
+            Uganda.uganda</span></li>
+        <li class="d-block"><span class="d-block"> <i class="fa fa-phone" aria-hidden="true"></i> Managing Director:</span><span>+256 772 570261 / +256 759 736914</span></li>
+        <li class="d-block"><span class="d-block"> <i class="fa fa-phone" aria-hidden="true"></i> For international sales:</span><span>+43 676 724 1554</span></li>
+        <li class="d-block"><span class="d-block"> <i class="fa fa-phone" aria-hidden="true"></i> For local/regional sales:</span><span>+256 703 252394 / +256 752 383240</span></li>
+        <li class="d-block"><span class="d-block">Email:</span><span><a href="javascript:void(0)" class="__cf_email__" data-cfemail="f29b9c949db28b9d8780969d9f939b9cdc919d9f">info@kiketropicalfruits.com</a></span></li>
         </ul>
         </div>
         <div class="col-md-3 mb-5">
@@ -101,7 +110,7 @@
 
         Copyright &copy;
         <script></script><script>document.write(new Date().getFullYear());</script> All rights reserved
-        with <i class="fa fa-heart" aria-hidden="true"></i> by <a target="_blank" class="text-primary">Ntech</a>
+        with by <a target="_blank" class="text-primary">Ntech</a>
 
         </p>
         </div>
