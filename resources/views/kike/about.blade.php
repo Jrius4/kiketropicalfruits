@@ -84,7 +84,7 @@
 <div class="row justify-content-around">
 <div class="col-md-6 col-lg-4 element-animate ">
 <div class="media block-6 d-block text-center">
-<div class="icon mb-6"><span class="ion-eye text-primary"></span></div>
+<div class="icon mb-6"><span class="ion-eye text-success"></span></div>
 <div class="media-body">
 <h2 class="heading">VISION</h2>
 <p>To improve the
@@ -99,7 +99,7 @@
 </div>
 <div class="col-md-6 col-lg-4 element-animate ">
 <div class="media block-6 d-block text-center">
-<div class="icon mb-6"><span class="ion-leaf text-primary"></span></div>
+<div class="icon mb-6"><span class="ion-leaf text-success"></span></div>
 <div class="media-body">
 <h3 class="heading">MISSION</h3>
 <p>

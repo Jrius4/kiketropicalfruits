@@ -11,7 +11,7 @@
 <div class="row slider-text align-items-center justify-content-center">
 <div class="col-md-8 text-center col-sm-12 element-animate pt-5">
 <h1 class="pt-5"><span>Contact Us</span></h1>
-<p class="mb-5 w-75 pl-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+{{-- <p class="mb-5 w-75 pl-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> --}}
 </div>
 </div>
 </div>
@@ -52,7 +52,7 @@
 </div>
 <div class="row">
 <div class="col-md-6 form-group">
-<input type="submit" value="Send Message" class="btn btn-primary px-3 py-3">
+<input type="submit" value="Send Message" class="btn btn-success px-3 py-3">
 </div>
 </div>
 </form>
@@ -62,15 +62,17 @@
 <div class="col-md-8 mx-auto contact-form-contact-info">
 <p class="d-flex">
 <span class="ion-ios-location icon mr-5"></span>
-<span>34 Street Name, City Name Here, United States</span>
+<span>Plot 68/69 Nakaseta, Kakooge,
+    Nakasongola, District,
+    Uganda.uganda</span>
 </p>
 <p class="d-flex">
 <span class="ion-ios-telephone icon mr-5"></span>
-<span>+1 242 4942 290</span>
+<span>+43 676 724 1554 / +256 752 383240/ +256 772 570261</span>
 </p>
 <p class="d-flex">
 <span class="ion-android-mail icon mr-5"></span>
-<span><a href="https://preview.colorlib.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="b2dbdcd4ddf2cbddc7c0d6dddfd3dbdc9cd1dddf">[email&#160;protected]</a></span>
+<span><a class="__cf_email__" data-cfemail="b2dbdcd4ddf2cbddc7c0d6dddfd3dbdc9cd1dddf">info@kiketropicalfruits.com</a></span>
 </p>
 </div>
 </div>
@@ -78,6 +80,8 @@
 </div>
 </div>
 </section>
+
+{{--
 <section class="section block-11">
 <div class="container">
 <div class="row justify-content-center mb-5">
@@ -154,7 +158,7 @@
 </div>
 </div>
 
-</section>
+</section> --}}
 
 
 @endsection

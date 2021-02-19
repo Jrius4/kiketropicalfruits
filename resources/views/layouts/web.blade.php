@@ -32,20 +32,20 @@
         <li class="nav-item">
         <a class="nav-link" href="{{route('about')}}">About</a>
         </li>
-        <li class="nav-item">
+        {{-- <li class="nav-item">
         <a class="nav-link" href="{{route('projects')}}">Projects</a>
-        </li>
-        <li class="nav-item dropdown">
+        </li> --}}
+        {{-- <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
         <div class="dropdown-menu" aria-labelledby="dropdown04">
         <a class="dropdown-item" href="{{route('services',1)}}">Architectural Design</a>
         <a class="dropdown-item" href="">Interior</a>
         <a class="dropdown-item" href="">Building</a>
         </div>
-        </li>
-        <li class="nav-item">
+        </li> --}}
+        {{-- <li class="nav-item">
         <a class="nav-link" href="">Blog</a>
-        </li>
+        </li> --}}
         <li class="nav-item">
         <a class="nav-link" href="{{route('contacts')}}">Contact</a>
         </li>
@@ -110,7 +110,7 @@
 
         Copyright &copy;
         <script></script><script>document.write(new Date().getFullYear());</script> All rights reserved
-        with by <a target="_blank" class="text-primary">Ntech</a>
+        with by <a target="_blank" class="text-success">Ntech</a>
 
         </p>
         </div>
