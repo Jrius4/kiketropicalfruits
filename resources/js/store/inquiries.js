@@ -5,15 +5,10 @@ export default {
         totalinquiries:0,
         inquiry:null,
         inquiries:[],
-        totalinquiries:0,
         totalrowsPerPageinquiries:0,
         inquiriesSortRowsBy:'created_at',
         totalinquiries:0,
         message: '',
-        inquiryPagination: {
-            page: 1,
-            rowsPerPage: 15
-        },
         openWindow: 1,
         items: [],
         inquiriesPagination: {
@@ -30,7 +25,7 @@ export default {
         },
         GET_INQUIRIES(currentState,payload) {
             currentState.inquiries = payload.inquiries.data;
-            currentState.inquiryPagination.page = parseInt(
+            currentState.inquiriesPagination.page = parseInt(
                 payload.inquiries.current_page
             );
 

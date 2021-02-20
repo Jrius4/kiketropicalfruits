@@ -19,8 +19,30 @@ class InquiryController extends Controller
      */
     public function index(Request $request)
     {
-        $inquiries = Inquiry::latest()->where('name','like','%'.$request->name.'%')->orWhere('email','like','%'.$request->email.'%')->orWhere('phone','like','%'.$request->email.'%')->orWhere('message','like','%'.$request->message.'%')->paginate(15);
-        return response()->json(compact('inquiries'));
+        $query = request()->query('keywords');
+        $rowsPerPage = request()->query('rowsPerPage');
+        $sortRowsBy = 'created_at';
+
+        if ($rowsPerPage == -1) {
+            $rowsPerPage = Inquiry::count();
+        }
+        $sortDesc = false;
+        if (request()->query('sortDesc') !== null) {
+            $sortDesc = request()->query('sortDesc') == 'true' ? true : false;
+        } else {
+            $sortDesc = false;
+        }
+        if (request()->query('sortRowsBy') !== null) {
+            $sortRowsBy = request()->query('sortRowsBy');
+        } else {
+            $sortRowsBy = 'created_at';
+        }
+        if ($sortRowsBy == 'created_at') {
+            $sortRowsBy = 'created_at';
+        }
+        $inquiries = Inquiry::orderBy($sortRowsBy, ($sortDesc ? 'desc' : 'asc'))->where('name', 'like', '%' . $query . '%')->orWhere('phone', 'like', '%' . $query . '%')->orWhere('message', 'like', '%' . $query . '%')->orWhere('email', 'like', '%' . $query . '%')->paginate($rowsPerPage);
+
+        return response()->json(compact('inquiries', 'sortRowsBy'));
 
     }
 
