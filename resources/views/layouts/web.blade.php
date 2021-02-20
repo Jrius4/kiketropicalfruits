@@ -14,6 +14,21 @@
     <title>KIKE</title>
 
     <link rel="stylesheet" href="asset_files/css/style.css">
+    <style>
+        a{
+            text-decoration: none;
+            color: green !important;
+        }
+        .nav-link{
+            color: #fff !important;
+        }
+        .navbar-brand{
+            color: #fff !important;
+        }
+        .icon{
+            color: green !important;
+        }
+    </style>
 </head>
 <body>
 
@@ -92,15 +107,14 @@
         <li class="d-block"><span class="d-block">Email:</span><span><a href="javascript:void(0)" class="__cf_email__" data-cfemail="f29b9c949db28b9d8780969d9f939b9cdc919d9f">info@kiketropicalfruits.com</a></span></li>
         </ul>
         </div>
-        {{-- <div class="col-md-3 mb-5">
+        <div class="col-md-3 mb-5">
         <h3>Quick Links</h3>
         <ul class="list-unstyled footer-link">
-        <li><a href="#">About</a></li>
-        <li><a href="#">Terms of Use</a></li>
-        <li><a href="#">Disclaimers</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="{{route('index')}}">Home</a></li>
+        <li><a href="{{route('contacts')}}">About</a></li>
+        <li><a href="{{route('about')}}">Contact</a></li>
         </ul>
-        </div> --}}
+        </div>
         <div class="col-md-3">
         </div>
         </div>

@@ -6,7 +6,7 @@
 
 <div class="top-shadow"></div>
 <div class="inner-page">
-<div class="slider-item" style="background-image: url('asset_files/images/hero_2.jpg');">
+<div class="slider-item" style="background-image: url('asset_files/imgz/IMG_0050-min.JPG');">
 <div class="container">
 <div class="row slider-text align-items-center justify-content-center">
 <div class="col-md-8 text-center col-sm-12 element-animate pt-5">

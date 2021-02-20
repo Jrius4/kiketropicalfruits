@@ -4,7 +4,7 @@
 
 <div class="top-shadow"></div>
 <section class="home-slider owl-carousel">
-<div class="slider-item" style="background-image: url('asset_files/images/hero_1.jpg');">
+<div class="slider-item" style="background-image: url('/asset_files/imgz/IMG_0061-min.JPG');">
 <div class="container">
 <div class="row slider-text align-items-center justify-content-center">
 <div class="col-lg-7 text-center col-sm-12 element-animate">
@@ -17,7 +17,7 @@
 </div>
 </div>
 </div>
-<div class="slider-item" style="background-image: url('asset_files/images/hero_2.jpg');">
+<div class="slider-item" style="background-image: url('asset_files/imgz/IMG_0050-min.JPG');">
 <div class="container">
 <div class="row slider-text align-items-center justify-content-center">
 <div class="col-lg-7 text-center col-sm-12 element-animate">
@@ -86,7 +86,7 @@
 </div>
 <div class="row align-items-stretch">
 <div class="col-lg-4 order-lg-1">
-<div class="h-100"><div class="frame h-100"><div class="feature-img-bg h-100" style="background-image: url('asset_files/images/about_1.jpg');"></div></div></div>
+<div class="h-100"><div class="frame h-100"><div class="feature-img-bg h-100" style="background-image: url('asset_files/imgz/IMG_0059-min.JPG');"></div></div></div>
 </div>
 <div class="col-md-6 col-lg-4 feature-1-wrap d-md-flex flex-md-column order-lg-1">
     <div class="feature-1 d-md-flex">
@@ -152,7 +152,7 @@
 <div class="container">
 <div class="row align-items-center mb-5">
 <div class="col-lg-7 order-md-2">
-<div class=""><div class="frame"><img src="asset_files/images/about_2.jpg" alt="Image" class="img-fluid"></div></div>
+<div class=""><div class="frame"><img src="asset_files/imgz/IMG_0076-min.JPG" alt="Image" class="img-fluid"></div></div>
 </div>
 <div class="col-md-5 pr-md-5 mb-5">
 <div class="block-41">
