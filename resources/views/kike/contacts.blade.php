@@ -22,16 +22,39 @@
 <section class="section border-bottom">
 <div class="container">
 <div class="row">
+
+        @if ($errors->any())
+        <div class="col-12 mb-5 order-2">
+            <div class="alert alert-danger">
+                <strong>Whoops!</strong> There were some problems with your input.<br><br>
+                <ul>
+                    @foreach ($errors->all() as $error)
+                        <li>{{ $error }}</li>
+                    @endforeach
+                </ul>
+            </div>
+        </div>
+    @endif
+    @if ($message = Session::get('success'))
+        <div class="col-12 mb-5 order-2">
+            <div class="alert alert-success">
+                <p>{{ $message }}</p>
+            </div>
+        </div>
+    @endif
+
+
 <div class="col-md-6 mb-5 order-2">
-<form action="#" method="post">
+<form action="{{route('inquiries.store')}}" method="POST">
+    @csrf
 <div class="row">
 <div class="col-md-6 form-group">
 <label for="name">Name</label>
-<input type="text" id="name" class="form-control ">
+<input type="text" id="name" name="name" class="form-control">
 </div>
 <div class="col-md-6 form-group">
 <label for="phone">Phone</label>
-<input type="text" id="phone" class="form-control ">
+<input type="text" id="phone" name="phone" class="form-control ">
 </div>
 </div>
 <div class="row">
@@ -41,7 +64,7 @@
 <div class="row">
 <div class="col-md-12 form-group">
 <label for="email">Email</label>
-<input type="email" id="email" class="form-control ">
+<input type="email" id="email"  name="email" class="form-control ">
 </div>
 </div>
 <div class="row">

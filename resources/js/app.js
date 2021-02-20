@@ -19,14 +19,26 @@ window.Vue = require('vue');
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
-Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+Vue.component('inquiries-component', require('./components/InquiriesComponent.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
+import store from "./store";
+import vuetify from "./plugins/vuetify";
 
 const app = new Vue({
+    store,
+    vuetify,
+    data: {
+        eventBus: new Vue()
+    },
+    provide: function() {
+        return {
+            eventBus: this.eventBus
+        };
+    },
     el: '#app',
 });

@@ -49,6 +49,8 @@ Route::get('/blogs/{id}', function () {
 
 Auth::routes();
 
+Route::resource('inquiries','InquiryController');
+
 Route::get('/home', 'HomeController@index')->name('home');
 
 
