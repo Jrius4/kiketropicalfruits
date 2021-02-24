@@ -129,7 +129,7 @@ global fruit product.
 <div class="row">
 <div class="col-lg-3">
 <div class="media d-block media-custom text-center">
-<a href="#"><img src="/asset_files/images/person_1.jpg" alt="Image Placeholder" class="img-fluid"></a>
+<a href="#"><img src="/asset_files/staffs/francis.png" alt="Image Placeholder" class="img-fluid"></a>
 <div class="media-body">
 <h3 class="mt-0 text-black">MUGABE FRANCIS</h3>
 
@@ -139,7 +139,7 @@ global fruit product.
 </div>
 <div class="col-lg-3">
 <div class="media d-block media-custom text-center">
-<a href="#"><img src="/asset_files/images/person_2.jpg" alt="Image Placeholder" class="img-fluid"></a>
+<a href="#"><img src="/asset_files/staffs/bob.png" alt="Image Placeholder" class="img-fluid"></a>
 <div class="media-body">
     <h3 class="mt-0 text-black">NSABA BOB KABANZA</h3>
 
@@ -149,7 +149,7 @@ global fruit product.
 </div>
 <div class="col-lg-3">
 <div class="media d-block media-custom text-center">
-<a href="#"><img src="/asset_files/images/person_4.jpg" alt="Image Placeholder" class="img-fluid"></a>
+<a href="#"><img src="/asset_files/staffs/olivia.png" alt="Image Placeholder" class="img-fluid"></a>
 <div class="media-body">
     <h3 class="mt-0 text-black">OLIVIA MUGABE MITTERER</h3>
 
@@ -160,7 +160,7 @@ global fruit product.
 </div>
 <div class="col-lg-3">
 <div class="media d-block media-custom text-center">
-<a href="#"><img src="/asset_files/images/person_3.jpg" alt="Image Placeholder" class="img-fluid"></a>
+<a href="#"><img src="/asset_files/staffs/caro.png" alt="Image Placeholder" class="img-fluid"></a>
 <div class="media-body">
     <h3 class="mt-0 text-black">NIGHT CAROL</h3>
 
